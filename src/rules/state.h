@@ -10,7 +10,7 @@
 #define JSON_OBJECT_SEQUENCED 1
 #define JSON_OBJECT_HASHED 2
 
-#define MAX_OBJECT_PROPERTIES 128
+#define MAX_OBJECT_PROPERTIES 255
 
 typedef struct jsonProperty {
     unsigned int hash;
